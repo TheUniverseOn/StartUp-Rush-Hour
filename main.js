@@ -1,8 +1,11 @@
 window.addEventListener('load', init);
-//global variables
+
+// Globals
+
+// Available Levels
 const levels = {
   easy: 5,
-  medium: 4,
+  medium: 3,
   hard: 1
 };
 
@@ -13,6 +16,7 @@ let time = currentLevel;
 let score = 0;
 let isPlaying;
 
+// DOM Elements
 const wordInput = document.querySelector('#word-input');
 const currentWord = document.querySelector('#current-word');
 const scoreDisplay = document.querySelector('#score');
@@ -21,47 +25,33 @@ const message = document.querySelector('#message');
 const seconds = document.querySelector('#seconds');
 
 const words = [
-  'wordd',
-  "Acquisition",
-  "Advertorials",
-"B2B2C",
-  "Buyout",
-  "Cliff",
-  "Co-invest",
-  "CAC",
-  "Decacorns",
-  "Disruptive",
-  "Dragon",
-"Ephemeral",
-  "Gamify",
-"Honeypot",
-  "Hackathon",
-  "Iterate",
-"IP",
-  "Liquidation",
-  "LTV",
-  "Longtail",
-  "Opium",
-  "PoC",
-  "Quinquagintacorn",
-  "Runway",
-  "Scale Up",
-  "Stealth",
-  "Unicorpse",
-  "Vanity Metrics",
-  "Viral Mechanics",
-  "Vesting Period",
-  "Vaporware",
-  "We’re the X of X",
-"Zombies",
-  "Crushing It",
-  "Capped Notes",
-  "Bridge Loan",
-"Bleeding Edge",
-  "Alpha test"
+  'hat',
+  'river',
+  'lucky',
+  'statue',
+  'generate',
+  'stubborn',
+  'cocktail',
+  'runaway',
+  'joke',
+  'developer',
+  'establishment',
+  'hero',
+  'javascript',
+  'nutrition',
+  'revolver',
+  'echo',
+  'siblings',
+  'investigate',
+  'horrendous',
+  'symptom',
+  'laughter',
+  'magic',
+  'master',
+  'space',
+  'definition'
 ];
 
-//Initialize game
 // Initialize Game
 function init() {
   // Show number of seconds in UI
