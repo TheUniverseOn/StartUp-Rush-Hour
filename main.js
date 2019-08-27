@@ -23,33 +23,45 @@ const scoreDisplay = document.querySelector('#score');
 const timeDisplay = document.querySelector('#time');
 const message = document.querySelector('#message');
 const seconds = document.querySelector('#seconds');
-
 const words = [
-  'hat',
-  'river',
-  'lucky',
-  'statue',
-  'generate',
-  'stubborn',
-  'cocktail',
-  'runaway',
-  'joke',
-  'developer',
-  'establishment',
-  'hero',
-  'javascript',
-  'nutrition',
-  'revolver',
-  'echo',
-  'siblings',
-  'investigate',
-  'horrendous',
-  'symptom',
-  'laughter',
-  'magic',
-  'master',
-  'space',
-  'definition'
+  'Accelerator',
+  "Acquisition",
+  "Advertorials",
+"B2B2C",
+  "Buyout",
+  "Cliff",
+  "Co-invest",
+  "CAC",
+  "Decacorns",
+  "Disruptive",
+  "Dragon",
+"Ephemeral",
+  "Gamify",
+"Honeypot",
+  "Hackathon",
+  "Iterate",
+"IP",
+  "Liquidation",
+  "LTV",
+  "Longtail",
+  "Opium",
+  "PoC",
+  "Quinquagintacorn",
+  "Runway",
+  "Scale Up",
+  "Stealth",
+  "Unicorpse",
+  "Vanity Metrics",
+  "Viral Mechanics",
+  "Vesting Period",
+  "Vaporware",
+  "We’re the X of X",
+"Zombies",
+  "Crushing It",
+  "Capped Notes",
+  "Bridge Loan",
+"Bleeding Edge",
+  "Alpha test"
 ];
 
 // Initialize Game
@@ -124,3 +136,4 @@ function checkStatus() {
     score = -1;
   }
 }
+
